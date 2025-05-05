@@ -3,27 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi Landing Page</title>
+  <title>Greenly - Ingreso</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="login-page">
   <header>
     <h1>Greenly</h1>
-    <nav>
-      <a href="#">Inicio</a>
-      <a href="#">Sobre nosotros</a>
-      <a href="#">Contacto</a>
-    </nav>
   </header>
 
-  <section class="hero">
-    <h2>Bienvenido a nuestra web</h2>
-    <p>Descripción llamativa de lo que haces.</p>
-    <a href="#" class="btn">Saber más</a>
-  </section>
+  <main class="login-container">
+    <h2>Bienvenido a Greenly</h2>
+    <p>Por favor, inicia sesión o regístrate para continuar.</p>
+
+    <form class="login-form" action="home.html">
+      <input type="text" placeholder="Usuario" required>
+      <input type="password" placeholder="Contraseña" required>
+      <div class="login-buttons">
+        <a href="home.html" class="btn">Iniciar Sesión</a>
+        <a href="home.html" class="btn">Registrarse</a>
+      </div>
+    </form>
+  </main>
 
   <footer>
-    <p>© 2025 - Tu Nombre o Empresa</p>
+    <p>© 2025 - Greenly | Apoyando a quienes más lo necesitan</p>
   </footer>
 </body>
 </html>
